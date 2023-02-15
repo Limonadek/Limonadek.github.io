@@ -1,0 +1,46 @@
+@import './components/column-left/column-left.css';
+@import './components/column-right/column-right.css';
+@import './components/summary/summary.css';
+@import './components/loader/loader.css';
+
+:root {
+    --color-primary: #4B899D;
+    --color-secondary: #6897A6;
+    --color-root-background: #E8EEF0;
+    --color-text-primary: #2F2F2F;
+    --color-text-inverted-primary: #FFF;
+    --color-page-background: #FFF;
+    --color-divider: #2F2F2F;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.root {
+    background-color: var(--color-root-background);
+}
+
+.external-link {
+    display: inline-block;
+    margin-top: 12px;
+    background-color: var(--color-secondary);
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: var(--color-text-inverted-primary);
+    text-decoration: none;
+}
+
+.external-link:hover {
+    background-color: var(--color-primary);
+}
+
+.hidden {
+    display: none;
+}

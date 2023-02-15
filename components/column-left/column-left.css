@@ -1,0 +1,15 @@
+.column-left {
+    width: 500px; /* Ширина */
+    background-color: var(--color-primary);
+    color: var(--color-text-inverted-primary);
+}
+
+.column-left__text {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.column-left__photo {
+    width: 500px; /* Ширина */
+}

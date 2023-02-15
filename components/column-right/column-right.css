@@ -1,0 +1,6 @@
+.column-right {
+    padding-left: 40px;
+    padding-right: 40px;
+    color: var(--color-text-primary);
+    background-color: var(--color-page-background);
+}
